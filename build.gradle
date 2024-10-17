@@ -4,8 +4,8 @@ apply plugin: 'maven-publish'
 group = 'com.github.mohakapt.material'
 version = '1.0.2'
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+//sourceCompatibility = JavaVersion.VERSION_17
+//targetCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
@@ -36,6 +36,6 @@ publishing {
 }
 
 wrapper {
-    gradleVersion = "7.3.3"
+    gradleVersion = "8.10.2"
     distributionType = Wrapper.DistributionType.ALL
 }
